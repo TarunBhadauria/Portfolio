@@ -550,15 +550,15 @@
     }
 
     .information>div>h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .information>div>h2 {
-        font-size: 0.875rem;
+        font-size: 0.80rem;
     }
 
     .information>div>h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .information>div {
@@ -608,7 +608,7 @@
     }
 
     .features{
-        font-size: 8.5px;
+        font-size: 10px;
     }
 
 }
