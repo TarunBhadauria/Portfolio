@@ -124,6 +124,8 @@
 }
 
 .skills>img {
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
     width: 40px;
 }
 
@@ -193,14 +195,14 @@
     color: black;
 }
 
-.icon {
+.icon  {
     cursor: pointer;
     color: white;
     font-size: 35px;
     transition: all 0.4s;
 }
 
-.icon:hover {
+.icon :hover {
     color: #e84949;
 }
 
@@ -381,6 +383,7 @@
 }
 
 .features {
+    font-size: smaller;
     margin-left: 1.5rem;
 }
 
@@ -483,10 +486,12 @@
 
     .skills {
         width: 100%;
-
+        
     }
-
+    
     .skills>img {
+        object-fit: contain;
+        aspect-ratio: 1 / 1;
         width: 35px;
     }
 
@@ -598,7 +603,7 @@
         color: initial;
     }
 
-    .icon:hover {
+    .icon :hover {
         color: #e84949;
     }
 

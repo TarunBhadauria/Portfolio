@@ -5,7 +5,9 @@ import cube from '../../assets/images/userAssets/cube.png'
 import dots from '../../assets/images/userAssets/dots.png'
 import plus from '../../assets/images/userAssets/plus.png'
 import zigzag from '../../assets/images/userAssets/zigzags.png'
-import user from '../../assets/images/userAssets/UserImage.png'
+
+
+const user = "https://res.cloudinary.com/di1qrcflg/image/upload/v1704267418/userImage_jfynlq.jpg";
 
 const Image = () => {
   return (

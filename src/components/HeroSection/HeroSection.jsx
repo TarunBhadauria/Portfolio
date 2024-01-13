@@ -10,7 +10,7 @@ const HeroSection = () => {
                 <AboutMe/>
                 <Image/>
             </div>
-            <p>Afnan</p>
+            <p>Tarun</p>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import style from './Navbar.module.css'
-import lettera from '../../assets/images/userAssets/letter-a.png'
-import letterm from '../../assets/images/userAssets/letter-m.png'
+import letterT from '../../assets/images/userAssets/letterT.png'
+import letterB from '../../assets/images/userAssets/letterB.png'
 import { Link } from 'react-scroll'
 import { FiArrowUp, FiMenu, FiX } from "react-icons/fi";
 import useOnClickOutside from '../../hooks/useOnClickOutside'
@@ -30,12 +30,12 @@ const Navbar = () => {
         <div className={style.Navbar}>
             <div className={style.Name}>
                 <div>
-                    <img src={letterm} alt='M' />
-                    <p>ohammad</p>
+                    <img src={letterT} alt='T' />
+                    <p>arun</p>
                 </div>
                 <div>
-                    <img src={lettera} alt='A' />
-                    <p>fnan</p>
+                    <img src={letterB} alt='B' />
+                    <p>hadauria</p>
                 </div>
             </div>
             <div className={style.Nav}>

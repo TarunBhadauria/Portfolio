@@ -6,7 +6,7 @@ import projectData from '../../assets/data/projectData'
 const Projects = () => {
     return (
         <div className={style.Projects} id='projects'>
-            <h3>Project</h3>
+            <h3>Project's</h3>
             <div>
                 {
                     projectData.map((data, index) => (

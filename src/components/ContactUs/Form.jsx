@@ -25,6 +25,7 @@ const Form = ({ setSubmitted }) => {
     const handleSubmit = async (e) => {
         setLoader(true);
         e.preventDefault();
+        console.log(process.env.REACT_APP_MAIL_TOKEN);
 
         await fetch(`https://formsubmit.co/ajax/${process.env.REACT_APP_MAIL_TOKEN}`, {
             method: "POST",

@@ -8,10 +8,9 @@ const AboutMe = () => {
     useEffect(() => {
         // Strings to be typed
         const strings = [
-            'Full Stack Developer',
+            'Front end Developer',
             'Web Developer',
-            'UI-UX Designer',
-            'Backend Developer',
+            'React Developer',
             'Coder',
         ];
 
@@ -34,7 +33,7 @@ const AboutMe = () => {
     }, []);
     return (
         <div className={style.AboutMe}>
-            <h3>Hi! Mohammad Afnan</h3>
+            <h3>Hi! Tarun Bhadauria</h3>
             <div>
                 <p className={style.intro}>I am <span className={`${style.role} role`}></span></p>
             </div>

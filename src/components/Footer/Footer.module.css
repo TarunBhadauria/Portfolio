@@ -40,14 +40,14 @@
     gap: 1rem;
 }
 
-.icons>svg {
+.icons>a {
     cursor: pointer;
     color: white;
     font-size: 35px;
     transition: all 0.4s;
 }
 
-.icons>svg:hover {
+.icons>a:hover {
     color: #e84949;
 }
 
